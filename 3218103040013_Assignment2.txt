@@ -1,0 +1,85 @@
+1.What the data types in python? Explain
+
+Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+Following are the standard or built-in data type of Python:
+
+Numeric
+Sequence Type
+Boolean
+Set
+Dictionary
+In Python, numeric data type represent the data which has numeric value. Numeric value can be integer, floating number or even complex numbers. These values are defined as int, float and complex class in Python.
+
+Integers – This value is represented by int class. It contains positive or negative whole numbers (without fraction or decimal). In Python there is no limit to how long an integer value can be.
+Float – This value is represented by float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
+Complex Numbers – Complex number is represented by complex class. It is specified as (real part) + (imaginary part)j. For example – 2+3j
+
+2 Briefly explain history of Python.
+
+Python laid its foundation in the late 1980s.
+The implementation of Python was started in the December 1989 by Guido Van Rossum at CWI in Netherland.
+In February 1991, van Rossum published the code (labeled version 0.9.0) to alt.sources.
+In 1994, Python 1.0 was released with new features like: lambda, map, filter, and reduce.
+Python 2.0 added new features like: list comprehensions, garbage collection system.
+On December 3, 2008, Python 3.0 (also called "Py3K") was released. It was designed to rectify fundamental flaw of the language.
+ABC programming language is said to be the predecessor of Python language which was capable of Exception Handling and interfacing with Amoeba Operating System.
+Python is influenced by following programming languages:
+ABC language.
+
+3.Explain all the Operators in python
+Operators are used to perform operations on variables and values.
+
+Python divides the operators in the following groups:
+
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+
+4.Explain the features of Python
+
+
+Python Features
+Python provides lots of features that are listed below.
+
+1) Easy to Learn and Use
+Python is easy to learn and use. It is developer-friendly and high level programming language.
+
+2) Expressive Language
+Python language is more expressive means that it is more understandable and readable
+
+3) Interpreted Language
+Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.
+
+4) Cross-platform Language
+Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.
+
+5) Free and Open Source
+Python language is freely available at offical web address.The source-code is also available. Therefore it is open source.
+
+6) Object-Oriented Language
+Python supports object oriented language and concepts of classes and objects come into existence.
+
+7) Extensible
+It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.
+
+8) Large Standard Library
+Python has a large and broad library and prvides rich set of module and functions for rapid application development.
+
+9) GUI Programming Support
+Graphical user interfaces can be developed using Python.
+
+10) Integrated
+It can be easily integrated with languages like C, C++, JAVA etc.
+
+5.Justify why python is interactive interpreted language
+
+An interpreter is a kind of program that executes other programs. When you write Python programs , it converts source code written by the developer into intermediate language which is again translated into the native language / machine language that is executed.
+
+The python code you write is compiled into python bytecode, which creates file with extension .pyc . The bytecode compilation happened internally, and almost completely hidden from developer. Compilation is simply a translation step, and byte code is a lower-level, and platform-independent , representation of your source code. Roughly, each of your source statements is translated into a group of byte code instructions. This byte code translation is performed to speed execution byte code can be run much quicker than the original source code statements.
+
+The .pyc file , created in compilation step, is then executed by appropriate virtual machines. The Virtual Machine just a big loop that iterates through your byte code instructions, one by one, to carry out their operations. The Virtual Machine is the runtime engine of Python and it is always present as part of the Python system, and is the component that truly runs the Python scripts . Technically, it's just the last step of what is called the Python interpreter.
